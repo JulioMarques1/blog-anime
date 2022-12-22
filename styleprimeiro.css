@@ -52,3 +52,23 @@
     text-indent: 0;
     font-size: 16.5px;
 }
+
+@media (max-width: 500px) {
+.primeiroanimemain__img {
+        width: 350px;
+        height: 270px;
+        margin-left: -10px;
+     }  
+.primeiroanimemain__background {
+    margin: 0;
+}  
+.primeiroanimemain__table {
+    margin: 0;
+    width: 100%;
+}
+.primeiroanimemain__tabletitle{
+    padding: 0;
+}
+.primeiroanimemain__tabletext {
+text-indent: 20px;}
+   }

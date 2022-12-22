@@ -10,7 +10,7 @@
 }
 
 .header a{
-    margin-left: 10px;
+    margin-left: 50px;
     color: antiquewhite;
 }
 
@@ -87,8 +87,7 @@
 }
 
 .main__displayimg {
-    display: flex; 
-    align-items: center;
+    display: none; 
 }
 
 .footer {
@@ -100,3 +99,41 @@
     color: steelblue;
     font-size: 12px;
 }
+
+@media (max-width: 500px) {
+    .header {
+        padding-bottom: 10px;
+    }
+    .header a {
+        background-color: black;
+        padding-right: 17px;
+    }
+    .header__img {
+        display: none;
+    }
+    .header__img--end {
+        position: absolute;
+        left: 174%;
+        top: 0%;
+    }
+    .main__title{
+        margin-bottom: 40px;
+    }
+    .main__titlelink {
+        padding-right: 10px;
+        margin-left: 19px;
+        padding-left: 23px;
+    }
+    .main__img {
+        width: 340px;
+        height: 370px;
+    }
+    .main__displayimg {
+        display: inline;
+        margin-top: 20px;
+    }
+    .main__text {
+        margin-left: 18px;
+    margin-bottom: 40px;
+    }
+    }
