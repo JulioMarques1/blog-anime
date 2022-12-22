@@ -1,0 +1,54 @@
+.primeiroanimemain__displayimg {
+    text-align: center;
+}
+
+.primeiroanimemain__img {
+    width: 1000px;
+    height: 500px;
+}
+
+.primeiroanimemain__background {
+    background-color: rgb(250, 235, 215, 0.8);
+    margin: -10px 173px  0 173px ;
+}
+
+.primeiroanimemain__table {
+    border-collapse: collapse;
+    width: 69%;
+    margin-left: 16%;
+}
+
+.primeiroanimemain__tabletitle {
+    text-align: center;
+    background-color: white;
+    color: steelblue;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1.5px solid black;
+    padding-left: 25px;;
+    padding-right: 25px;
+    font-size: 19px;
+}
+
+.primeiroanimemain__tabletitle tr th{
+    border: 1.5px solid black;
+}
+
+.primeiroanimemain__tabletitle--size {
+    font-size: 17px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.primeiroanimemain__tabletext {
+    color: steelblue;
+    background-color: white;
+    border: 1.5px solid black;
+    text-indent: 50px;
+    font-size: 16.1px;
+}
+
+.primeiroanimemain__tabletext--align {
+    text-indent: 0;
+    font-size: 16.5px;
+}

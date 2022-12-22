@@ -1,0 +1,14 @@
+Crie a home de um site, com o tema blog de anime, inicialmente ele deverá conter:
+Cabeçalho, com uma logo centralizada com tema de anime
+Titulo blog animes
+Conteúdo sobre 2 animes em destaque, um texto com a sinopse e na lateral uma imagem, 
+abaixo da sinopse deve ter uma ficha técnica em forma de tabela com as 
+informações: nome, qtd episodios, studio, fonte material original
+Rodapé com o texto de copyright
+
+Sobre o código:
+crie um repositório no github e vincule ao projeto
+css em arquivo externo
+criar pasta chamada assets com as imagens do site
+utilize o padrão BEM
+mantenha o código identado
