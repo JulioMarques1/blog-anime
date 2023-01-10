@@ -1,0 +1,100 @@
+.contatomain__img {
+    width: 430px;
+    margin-left: 120px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+.main__form {
+    background-color: rgb(250, 235, 215, 0.8);
+    margin-right: 225px;
+    margin-left: 120px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.contatomain__background {
+    background-color: white;
+    margin-right: 40%;
+    padding-top: 1px;
+    padding-bottom: 30px;
+}
+
+.main__formtitle {
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+    color: steelblue;
+    text-transform: uppercase;
+}
+
+.main__formtext {
+    padding-right: 160px;
+    margin-left: 50px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main__formtext--lessspace {
+    padding-right: 10px;
+}
+
+.main__displaycheckbox {
+    display: flex;
+}
+
+.main__formcheckbox {
+    flex-direction: column;
+}
+
+.main__formtext--morespace {
+    padding-left: 15px;
+    padding-right: 170px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+
+.main__button {
+    margin-top: 10px;
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.main__button:hover {
+    color: steelblue;
+}
+
+@media (max-width: 500px) {
+    .contatomain__img {
+        margin-left: 0;
+        margin-top: 0;
+        width: 310px;
+        height: 210px;
+    }
+
+    .main__form {
+        margin-right: 10px;
+        margin-left: 10px;
+        padding-left: 25px;
+    }
+
+    .contatomain__background {
+            margin-right: 8%;
+        }
+
+    .main__formtext {
+        padding-right: 30px;
+    margin-left: 30px;
+    padding-left: 30px;
+    }
+
+    .main__formtext--morespace {
+        padding-right: 60px;
+    }
+}

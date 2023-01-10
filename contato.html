@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Animes</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contato.css"
+</head>
+<body class="body">
+    <header class="header">
+        <a href="./">
+             <img class="header__img" src="assets/anime-logo.png"  alt="logo"> </a>  
+        <a class="header__home" href="./">Início</a>
+        <a class="header__home" href="destaques.html">Destaques</a>
+        <a>Animes Populares</a>
+        <a class="header__home" href="contato.html">Contato</a>
+        <a href="./"> 
+            <img class="header__img header__img--end" src="assets/anime-logo.png"  alt="logo"></a>
+    </header>
+    <main>
+        <section>
+            <h1 class="main__title main__title--margin">Contato</h1>
+            <figure>
+                <img class="contatomain__img" src="assets/contato.jpg">
+            </figure>
+            <form class="main__form">
+                <div class="contatomain__background">
+                <article>
+                    <label class="main__formtitle" for="nome">Nome:</label>
+                    <input class="main__formtext" 
+                    type="text" 
+                    id="nome" 
+                    name="nome" 
+                    placeholder="Digite seu Nome aqui">
+                </article>
+
+                <article>
+                    <label class="main__formtitle" for="email">Email:</label>
+                    <input class="main__formtext" 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Digite seu E-mail aqui">
+                </article>
+
+                <article>
+                    <label class="main__formtitle" for="idade">Idade:</label>
+                    <input class="main__formtext main__formtext--lessspace" 
+                    type="number" 
+                    id="idade" 
+                    name="idade" 
+                    placeholder="Idade" 
+                    min="1" max="100">
+                </article>
+
+                <article>
+                    <label class="main__formtitle" for="data">Data de Nascimento:</label> 
+                    <input class="main__formtext main__formtext--lessspace" 
+                    type="date" 
+                    id="data" 
+                    name="data de nascimento">
+                </article>
+
+                <article>
+                    <label class="main__formtitle" for="sexo">Sexo:</label> 
+                    <input class="main__formtext" type="radio" id="sexo" name="sexo" value="masculino">masculino<br>
+                
+                    <input class="main__formtext" type="radio" id="" name="sexo" value="feminino">feminino
+                </article>
+     
+                <article>
+                    <label class="main__formtitle" for="tel">Telefone de Contato:</label>                
+                    <input class="main__formtext" type ="tel" id="tel" name="telefone" placeholder="Digite seu Telefone aqui"> 
+                 </article>
+
+                <article>
+                    <label class="main__formtitle" 
+                    for="gen">Quais são os generos de animes preferidos?</label>
+                    <br>
+                    <div class="main__displaycheckbox">
+                        <div class="main__formcheckbox">
+                            <input class="main__formtext" 
+                                        type="checkbox" 
+                                        id="gen" 
+                                        name="genero1" 
+                                        value="Shonen"
+                                        >Shonen<br>
+                            
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero2" 
+                                    value="Shoujo"
+                                    >Shoujo<br>
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero3" 
+                                    value="Seinen"
+                                    >Seinen<br>
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero4" 
+                                    value="Josei"
+                                    >Josei<br>
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero5" 
+                                    value="Ecchi"
+                                    >Ecchi<br>
+                        </div>
+
+                        <div class="main__formcheckbox">
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero6" 
+                                    value="Isekai"
+                                    >Isekai<br>
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero7" 
+                                    value="Mecha"
+                                    >Mecha<br>
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero8" 
+                                    value="Slice of Life"
+                                    >Slice of Life<br>
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero9" 
+                                    value="Kodomomuke"
+                                    >Kodomomuke<br>
+
+                            <input class="main__formtext" 
+                                    type="checkbox" 
+                                    id="gen" 
+                                    name="genero10" 
+                                    value="Iyashikei"
+                                    >Iyashikei<br>        
+                                    
+                         </div>
+                     </div>
+                </article>
+
+                <article>
+                    <label class="main__formtitle" for="coment">Escreva um comentário para nós:</label> <br>
+                    <textarea class="main__formtext main__formtext--morespace" placeholder="Escreva aqui seu comentário"></textarea>
+                </article>
+
+                    <input class="main__button" type="submit" value="Enviar"> <br>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">© Copyright, Blog Animes</p>
+    </footer>
+</body>

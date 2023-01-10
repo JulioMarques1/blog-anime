@@ -12,3 +12,13 @@ css em arquivo externo
 criar pasta chamada assets com as imagens do site
 utilize o padrão BEM
 mantenha o código identado
+
+pagina de contato:
+nome
+email
+idade
+data de nascimento
+genero sexualidade
+telefone
+genero de animes favoritos
+* usar tags input, form e button submit
