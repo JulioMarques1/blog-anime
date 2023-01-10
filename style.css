@@ -9,6 +9,10 @@
     background-color: rgb(0, 0, 0, 0.98);
 }
 
+.header__link {
+    text-decoration: none;
+}
+
 .header a {
     margin-left: 50px;
     color: antiquewhite;
